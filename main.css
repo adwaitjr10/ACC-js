@@ -1,0 +1,219 @@
+body {
+    font: normal 16px Helvetica, Verdana Arial, sans-serif;
+    /* background: #0c0b09; */
+    background: rgb(2, 12, 68);
+    color: #fff;
+    font-size: 16px;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+#logo{
+    width: 100%;
+    height: 20vh;
+
+}
+#logo img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+#background-video{
+    width: 100%;
+    height: 50%;
+}
+
+#menu
+    {
+        display: flex;
+        justify-content: space-around;
+        background-color:aliceblue;
+        color: white;
+        padding: 5px;
+    }
+    
+
+#mainMenu {
+	font-family: sans-serif;
+    background-color: #174973;
+    height: 40px;
+    display: flex;
+    font-size: 14px;
+    color: white;
+    justify-content: space-around;
+    overflow: hidden;
+    padding: 5px;
+
+}
+#mainMenu li {
+	display:flex;
+	width:100px;
+	float:left;
+	margin-left:12px;
+
+}
+
+#mainMenu a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	color:white;
+    align-items: center;
+}
+
+#mainMenu a:hover {
+	background-color:yellow;
+	color:#fff;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}		
+.navbar ul {
+    /* margin: 0; */
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    /* margin-left: 1%; */
+}
+.dropdown {
+    position: relative;
+
+}
+
+.navbar .dropdown ul {
+    display: block;
+    position: absolute;
+    left: 14px;
+    top: calc(100% + 30px);
+    margin: 0;
+    padding: 10px 0;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+    background: #fff;
+    box-shadow: 0px 0px 30px rgb(127 137 161 / 25%);
+    transition: 0.3s;
+    border-top: 3px solid #0606df;
+    border-bottom: 3px solid #0606df;
+}
+.navbar {
+    padding: 0;
+    float: left;
+}
+.secondLevel {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    color: #174973;
+    z-index: 1;
+  }
+  .dropdown:hover .secondLevel {display: block;}
+.dropD{
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+
+.s-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "verdana", serif;
+    color: #1a1814;
+    display: flow-root;
+}
+.specials {
+    overflow: hidden;
+    background-color: #c9d8fa;
+    padding-top: 10px;
+}
+.pb-1 {
+    padding-bottom: 0.25rem !important;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    
+    background-color: lightblue;
+  }
+  .boxes{
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+
+}
+.portal{
+    display: flex;
+    flex-direction: row;
+    background-color: #174973;
+}  
+
+.por{
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 320px;
+
+}
+  .ln{
+    background-color: lightblue;
+    flex: 3;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(180px);
+    margin: 5px;
+    padding: 50px;
+    font-size: 30px;
+  }
+
+  .hl{
+    background-color: lightblue;
+    margin: 5px;
+    padding: 50px;
+    font-size: 30px;
+    flex: 2;
+  }
+
+.testimonial-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    border: 3px solid rgb(0, 171, 255);
+    text-align: center;
+    vertical-align: middle;
+    
+    
+}
+.menu #menu-flters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 12px 10px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 10px;
+    transition: all ease-in-out 0.3s;
+    border-radius: 50px;
+    background: #df9926;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
